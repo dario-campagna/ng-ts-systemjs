@@ -1,7 +1,6 @@
 import {MyController} from './my-controller'
 
 declare var angular:any;
-
 angular.module('myApp', [])
     .controller('MyController', MyController);
 
