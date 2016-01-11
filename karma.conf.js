@@ -4,13 +4,14 @@ module.exports = function (config) {
         basePath: '',
 
         files: [
-            'node_modules/angular/angular.js',
             'dist/**/*.spec.js'
         ],
 
         systemjs: {
             serveFiles: [
-                'dist/**/*.js'
+                'dist/**/*.js',
+                'node_modules/angular/angular.js',
+                'node_modules/angular-mocks/angular-mocks.js'
             ],
             config: {
                 baseURL: '',

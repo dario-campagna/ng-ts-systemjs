@@ -1,9 +1,12 @@
+import {MyService} from "./my-service";
+
 export class MyController {
 
-    private _title = 'Title from controller';
+    constructor(private _myService:MyService) {
+    }
 
-    getTitle(){
-        return this._title;
+    getTitle() {
+        return this._myService.getTitle();
     }
 
 }

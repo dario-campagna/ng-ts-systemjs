@@ -1,9 +1,10 @@
 import {MyController} from './my-controller'
+import {MyService} from "./my-service";
 
-declare var angular:any;
 angular.module('myApp', [])
-    .controller('MyController', MyController);
+    .controller('MyController', ['MyService', MyController])
+    .service('MyService', MyService);
 
-angular.element(document).ready(function(){
+angular.element(document).ready(function () {
     angular.bootstrap(document, ['myApp']);
 });
