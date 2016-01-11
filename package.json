@@ -5,11 +5,20 @@
   },
   "devDependencies": {
     "angular": "^1.5.0-rc.0",
+    "angular-mocks": "^1.4.8",
     "browser-sync": "^2.11.0",
     "del": "^0.1.0",
+    "es6-module-loader": "^0.17.10",
     "gulp": "^3.6.0",
+    "gulp-filter": "^3.0.1",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-typescript": "^2.10.0",
-    "systemjs": "^0.19.13"
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-systemjs": "^0.10.0",
+    "systemjs": "^0.19.13",
+    "tsconfig-glob": "^0.3.3"
   }
 }

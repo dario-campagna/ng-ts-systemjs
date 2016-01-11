@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false
+  },
+  "filesGlob": [
+    "app/**/*.ts",
+    "test/**/*.ts",
+    "typings/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "typings/tsd.d.ts",
+    "typings/angularjs/angular.d.ts",
+    "typings/jasmine/jasmine.d.ts",
+    "typings/jquery/jquery.d.ts",
+    "app/boot.ts",
+    "app/my-controller.ts",
+    "test/my-controller.spec.ts"
+  ]
+}
