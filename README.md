@@ -1,8 +1,8 @@
-# Intro
+## Intro
 
 This repository is a seed AngularJS application written in TypeScript. Its focus is on showing how TypeScript modules can be managed by using SystemJS, and how unit tests can be written and run in such a project configuration.
 
-# Software Prerequisites
+## Software Prerequisites
 
 In order to run this seed, the following software is required.
 
@@ -22,7 +22,7 @@ Gulp is used for running the build steps, and running tests.
 
 TSD is a package manager to search and install TypeScript definition files directly from the community driven [DefinitelyTyped] (https://github.com/borisyankov/DefinitelyTyped) repository.
 
-# Getting Started
+## Getting Started
 
 Begin by cloning the repository.
 
@@ -30,7 +30,7 @@ Use npm to get dependencies: `npm install`
 
 TypeScript definition files are stored in the `typings` directory. You can reinstall them with the command `tsd reinstall` if needed. The application code is stored in the `app` directory, while test code resides in the `test` directory.
  
-# The Build/Test Pipeline
+## The Build/Test Pipeline
 
 This repo uses Gulp tasks for all building and testing steps, they are all defined in `gulpfile.js`.
  
