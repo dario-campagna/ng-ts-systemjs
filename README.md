@@ -8,7 +8,7 @@ In order to run this seed, the following software is required.
 
 ### Git
 
-See [Settig Up Git](https://help.github.com/articles/set-up-git/) from the GitHub guides.
+See [Setting Up Git](https://help.github.com/articles/set-up-git/) from the GitHub guides.
 
 ### Node.js, npm
 
@@ -32,7 +32,7 @@ TypeScript definition files are stored in the `typings` directory. You can reins
  
 ## The Build/Test Pipeline
 
-This repo uses Gulp tasks for all building and testing steps, they are all defined in `gulpfile.js`.
+This seed uses Gulp tasks for all building and testing steps, they are all defined in `gulpfile.js`.
  
 ### Build
 
