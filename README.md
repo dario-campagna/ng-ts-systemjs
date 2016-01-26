@@ -44,13 +44,27 @@ The generated files are output in the `dist` folder. You can examine the configu
 
 To remove all generated files, run:
 
-`gulp clean`.
+`gulp clean_dist`.
 
 ### Serve and Watch
 
 To see the app run and have `.ts` file recompiled upon changes (with the addition of app auto-reload), run:
 
 `gulp serve`.
+
+### Production
+
+The `build_prod` task generates a (minified) `bundle.js` file from the compiled `.ts` files by using the SystemJS builder. The generated file is output in the `prod` directory. The task also copies in the `prod` directory the necessary libraries and static assets. Run with:
+ 
+ `gulp build_prod`.
+ 
+ To remove all generated files, run:
+ 
+ `gulp clean_prod`.
+ 
+ To see the app run using the bundle, run:
+ 
+ `gulp prod`.
 
 ### Test
 

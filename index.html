@@ -3,9 +3,8 @@
 <head>
     <title>Angular TypeScript SystemJS</title>
 
-    <!-- 1. Load libraries -->
-    <script src="lib/system.src.js"></script>
-    <script src="lib/angular.js"></script>
+    <!-- libs:js -->
+    <!-- libs -->
 
     <!-- 2. Configure SystemJS -->
     <script>
@@ -20,6 +19,9 @@
         System.import('app/boot')
                 .then(null, console.error.bind(console));
     </script>
+
+    <!-- bundle:js -->
+    <!-- bundle -->
 
 </head>
 
