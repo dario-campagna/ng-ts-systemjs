@@ -15,6 +15,6 @@ describe('my-controller', () => {
 
     it('should return message', () => {
         expect(myController.getMessage()).toBe('Hello World!');
-    })
+    });
 
 });
