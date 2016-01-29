@@ -5,8 +5,8 @@ export class MyController {
     constructor(private _myService:MyService) {
     }
 
-    getTitle() {
-        return this._myService.getTitle();
+    public getMessage() {
+        return this._myService.getMessage();
     }
 
 }

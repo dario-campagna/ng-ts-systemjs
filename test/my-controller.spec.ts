@@ -13,8 +13,8 @@ describe('my-controller', () => {
         myController = $controller('MyController');
     }));
 
-    it('should return title', () => {
-        expect(myController.getTitle()).toBe('Title from controller');
+    it('should return message', () => {
+        expect(myController.getMessage()).toBe('Hello World!');
     })
 
 });

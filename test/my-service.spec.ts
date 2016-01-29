@@ -8,8 +8,8 @@ describe('my-service', () => {
         myService = new MyService();
     });
 
-    it('should return title', () => {
-        expect(myService.getTitle()).toBe('Title from controller');
+    it('should return message', () => {
+        expect(myService.getMessage()).toBe('Hello World!');
     })
 
 });

@@ -1,7 +1,7 @@
 export class MyService {
 
-    public getTitle(){
-        return 'Title from controller';
+    public getMessage(){
+        return 'Hello World!';
     }
 
 }
